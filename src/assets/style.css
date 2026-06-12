@@ -1,0 +1,87 @@
+:root {
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: #1f2937;
+  background: #f8fafc;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.rbph-sfc-demo {
+  width: min(100%, 560px);
+  border: 1px solid #d4d4d8;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 10px 24px rgb(15 23 42 / 8%);
+}
+
+.rbph-sfc-demo header {
+  margin-bottom: 18px;
+}
+
+.rbph-sfc-demo .eyebrow {
+  margin: 0 0 4px;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.rbph-sfc-demo h2 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.rbph-sfc-demo dl {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 18px;
+}
+
+.rbph-sfc-demo dl>div {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 12px;
+  align-items: baseline;
+  border-top: 1px solid #e4e4e7;
+  padding-top: 10px;
+}
+
+.rbph-sfc-demo dt {
+  color: #71717a;
+  font-size: 13px;
+}
+
+.rbph-sfc-demo dd {
+  min-width: 0;
+  margin: 0;
+  font-weight: 600;
+}
+
+.rbph-sfc-demo button {
+  border: 0;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  padding: 9px 12px;
+}
+
+.rbph-sfc-demo button:hover {
+  background: #1d4ed8;
+}
